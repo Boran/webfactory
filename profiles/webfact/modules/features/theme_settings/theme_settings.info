@@ -1,0 +1,15 @@
+name = theme settings
+description = stores the theme settings
+core = 7.x
+package = webfact
+version = 7.x-1.0-dev
+project = theme_settings
+dependencies[] = ctools
+dependencies[] = strongarm
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:2
+features[variable][] = jquery_update_compression_type
+features[variable][] = jquery_update_jquery_admin_version
+features[variable][] = jquery_update_jquery_cdn
+features[variable][] = jquery_update_jquery_version
+features[variable][] = theme_default
