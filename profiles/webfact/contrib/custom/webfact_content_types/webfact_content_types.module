@@ -1,0 +1,8 @@
+<?php
+/**
+ * @file
+ * Code for the Webfact content types feature.
+ */
+
+include_once 'webfact_content_types.features.inc';
+
