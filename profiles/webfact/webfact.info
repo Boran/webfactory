@@ -30,6 +30,7 @@ dependencies[] = webfact
 dependencies[] = webfact_content_types
 
 ; Contrib modules
+dependencies[] = features
 dependencies[] = variable
 dependencies[] = field_group
 dependencies[] = entity_token
