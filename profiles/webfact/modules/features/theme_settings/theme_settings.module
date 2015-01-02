@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the theme settings feature.
+ */
+
+include_once 'theme_settings.features.inc';
