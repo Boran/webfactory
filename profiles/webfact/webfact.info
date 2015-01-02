@@ -1,0 +1,4 @@
+name = Webfact
+description = Profile for a drupal docker manager
+version = VERSION
+core = 7.x
