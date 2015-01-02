@@ -2,3 +2,27 @@ name = Webfact
 description = Profile for a drupal docker manager
 version = VERSION
 core = 7.x
+
+; Custom
+dependencies[] = webfact
+
+; Features
+dependencies[] = webfact_content_types
+
+; Contrib modules
+dependencies[] = variable
+dependencies[] = field_group
+dependencies[] = entity_token
+dependencies[] = date
+dependencies[] = views_ui
+dependencies[] = token
+dependencies[] = advanced_help
+dependencies[] = contact
+dependencies[] = jquery_update
+dependencies[] = field_default_token
+dependencies[] = clone
+dependencies[] = node_export
+dependencies[] = uuid
+dependencies[] = devel
+dependencies[] = admin_menu
+dependencies[] = backup_migrate
