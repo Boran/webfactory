@@ -17,7 +17,6 @@ dependencies[] = options
 dependencies[] = path
 dependencies[] = taxonomy
 dependencies[] = dblog
-dependencies[] = search
 dependencies[] = shortcut
 dependencies[] = field_ui
 dependencies[] = file
@@ -28,6 +27,7 @@ dependencies[] = webfact
 
 ; Features
 dependencies[] = webfact_content_types
+dependencies[] = theme_settings
 
 ; Contrib modules
 dependencies[] = features
@@ -45,5 +45,5 @@ dependencies[] = clone
 dependencies[] = node_export
 dependencies[] = uuid
 dependencies[] = devel
-dependencies[] = admin_menu
+dependencies[] = adminimal_admin_menu
 dependencies[] = backup_migrate

@@ -69,8 +69,8 @@ function webfact_install() {
   filter_format_save($full_html_format);
 
   // Enable some webfact blocks.
-  $default_theme = variable_get('theme_default', 'bartik');
-  $admin_theme = 'seven';
+  $default_theme = variable_get('theme_default', 'wf_bootstrap');
+  $admin_theme = 'adminimal_theme';
   $blocks = array(
     array(
       'module' => 'system',
@@ -109,26 +109,6 @@ function webfact_install() {
       'status' => 1,
       'weight' => 0,
       'region' => 'sidebar_first',
-      'pages' => '',
-      'cache' => -1,
-    ),
-    array(
-      'module' => 'system',
-      'delta' => 'navigation',
-      'theme' => $default_theme,
-      'status' => 1,
-      'weight' => 0,
-      'region' => 'sidebar_first',
-      'pages' => '',
-      'cache' => -1,
-    ),
-    array(
-      'module' => 'system',
-      'delta' => 'powered-by',
-      'theme' => $default_theme,
-      'status' => 1,
-      'weight' => 10,
-      'region' => 'footer',
       'pages' => '',
       'cache' => -1,
     ),
@@ -362,8 +342,8 @@ function webfact_install() {
   db_update('system')
     ->fields(array('status' => 1))
     ->condition('type', 'theme')
-    ->condition('name', 'seven')
+    ->condition('name', 'adminimal_theme')
     ->execute();
-  variable_set('admin_theme', 'seven');
+  variable_set('admin_theme', 'adminimal_theme');
   variable_set('node_admin_theme', '1');
 }
