@@ -27,6 +27,7 @@ dependencies[] = webfact
 
 ; Features
 dependencies[] = webfact_content_types
+dependencies[] = theme_settings
 
 ; Contrib modules
 dependencies[] = features
